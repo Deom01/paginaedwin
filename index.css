@@ -120,7 +120,7 @@ header a:hover{
 
 #nuestros-programas h2{
     margin-top: 0;
-    font-size: 3.2em;
+    font-size: 2em;
 }
 
 #nuestros-programas p{
@@ -141,7 +141,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/front-end.jpg");
+    ,url("media/Img2.jpg");
 
 }
 
@@ -151,7 +151,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/full-stack.jpg");
+    ,url("media/Img3.jpg");
 }
 
 .carta:nth-child(3){
@@ -160,7 +160,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/python.jpg");
+    ,url("media/Img4.jpg");
 
 }
 
@@ -174,25 +174,78 @@ header a:hover{
     font-weight: bold;
 }
 
+#final .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#final .carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/ico1.png");
+
+}
+
+#final .carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/ico2.png");
+}
+
+#final .carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/ico4.png");
+}
+
+#final .carta:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        )
+        ,url("media/ico3.png");
+}
+
+#final .carta:nth-child(5){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        )
+        ,url("media/ico5.png");
+}
+
 #final{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     background-color: rgb(30,30,30);
     color: white;
-    height: 80vh;
+    text-align: center;
+}
+
+#final .container{
+    padding: 150px 12px;
 }
 
 #final h2{
-    font-size: 9vw;
+    margin-top: 0;
+    font-size: 3.2em;
 }
 
-#final button{
-    font-size: 5vw;
+#final p{
+    display: none;
 }
-
 footer{
     background-color: rgb(230,230,230);
 }
@@ -201,13 +254,6 @@ footer p{
     margin: 0;
     padding: 12px;
     color: rgb(100,100,100);
-}
-
-footer .container{
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
 }
 
 @media (min-width: 850px){
@@ -273,12 +319,16 @@ footer .container{
     }
 
     #nuestros-programas h3{
-        margin-top: 0;
+        margin-top: 5px;   
+    }
+
+    #nuestros-programas button{
+        margin-top: flex-end;
     }
 
     #nuestros-programas .carta{
-        padding: 50px;
-        background-size: 100% 150px;
+        padding: 50px 50px;
+        background-size: 100% 170px;
         background-repeat: no-repeat;
         background-position-y: 0;
         background-color: rgba(50, 50, 50, 1);
@@ -328,18 +378,82 @@ footer .container{
     #caracteristicas ul{
         margin-left: 100px;
     }
+    #final .programas{
+        display: flex;
+        justify-content: center;
+    }
+
+    #final p{
+        display: block;
+        margin-bottom: 30px;
+    }
 
     #final h2{
-        font-size: 5em;
+        font-size: 4em;
     }
 
-    #final button{
-        font-size: 2em;
+    #final h3{
+        margin-top: 0;
     }
 
-    footer .container{
-        justify-content: flex-end;
+    #final .carta{
+        padding: 50px;
+        background-size: 100% 100px 100px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(50, 50, 50, 1);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
     }
+
+    #final .carta:first-child{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("media/ico1.png");
+
+    }
+
+    #final .carta:nth-child(2){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("media/ico2.png");
+    }
+
+    #final .carta:nth-child(3){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("media/ico4.png");
+
+    }
+
+    #final .carta:nth-child(4){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("media/ico3.png");
+
+    }
+
+    #final .carta:nth-child(5){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("media/ico5.png");
+
+    }
+
 }
 
 @media (min-width: 1200px) {
